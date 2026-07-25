@@ -6,7 +6,6 @@ plt.scatter(roll_numbers, marks, color='crimson', s=60, edgecolors='black',label
 plt.title("Student Marks vs Roll Number")
 plt.xlabel("Roll Number")
 plt.ylabel("Marks Obtained")
-plt.yticks(range(0,20,2))
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.legend()
 plt.show()
